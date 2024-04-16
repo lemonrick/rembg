@@ -11,6 +11,8 @@ python app.py
 
 ## DOCKER
 
+- unpack u2net.7z and move u2net.onnx to root folder
+
 ```bash
 docker build -t removebg .
 ```
