@@ -8,3 +8,13 @@ Watch the [tutorial](https://youtu.be/cw34KMPSt4k) on YouTube
 pip install -r requirements.txt
 python app.py
 ```
+
+## DOCKER
+
+```bash
+docker build -t removebg .
+```
+
+```bash
+docker run --name removebg -p 5100:5100 removebg
+```
